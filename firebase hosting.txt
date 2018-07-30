@@ -1,0 +1,86 @@
+Microsoft Windows [Version 10.0.17134.165]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\anti2110\FirebaseWebTutorial\WallPaper>npm install -g firebase-tools
+C:\Users\anti2110\AppData\Roaming\npm\firebase -> C:\Users\anti2110\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase
++ firebase-tools@4.0.0
+updated 3 packages in 18.531s
+
+C:\Users\anti2110\FirebaseWebTutorial\WallPaper>firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\anti2110\FirebaseWebTutorial\WallPaper
+
+? Are you ready to proceed? Yes
+? Which Firebase CLI features do you want to setup for this folder? Press Space to select features, then Enter to confi
+rm your choices. Hosting: Configure and deploy Firebase Hosting sites
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Select a default Firebase project for this directory: Study (study-82168)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? public
+? Configure as a single-page app (rewrite all urls to /index.html)? No
++  Wrote public/404.html
+? File public/index.html already exists. Overwrite? No
+i  Skipping write of public/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+
+C:\Users\anti2110\FirebaseWebTutorial\WallPaper>firebase deploy
+
+=== Deploying to 'study-82168'...
+
+i  deploying hosting
+i  hosting: preparing public directory for upload...
++  hosting: 7 files uploaded successfully
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/study-82168/overview
+Hosting URL: https://study-82168.firebaseapp.com
+
+C:\Users\anti2110\FirebaseWebTutorial\WallPaper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
